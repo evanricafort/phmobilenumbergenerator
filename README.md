@@ -6,7 +6,7 @@ filler for forms and datasets, not real subscribers.
 
 # Usage
 ```
-python3 phmobilenumgenerator.py
+python3 phmobilenumbergenerator.py
 ```
 
 That writes 1000 numbers in the 10-digit format, `9XXXXXXXXX`.
@@ -19,8 +19,8 @@ That writes 1000 numbers in the 10-digit format, `9XXXXXXXXX`.
 | `-h`, `--help` | Show the flags and exit. |
 
 ```
-python3 phmobilenumgenerator.py --gen 250
-python3 phmobilenumgenerator.py --gen 250 --full
+python3 phmobilenumbergenerator.py --gen 250
+python3 phmobilenumbergenerator.py --gen 250 --full
 ```
 
 Requires Python 3. No third-party packages.
