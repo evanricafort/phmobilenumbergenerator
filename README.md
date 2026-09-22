@@ -1,8 +1,12 @@
 testing tool for VAPT
 
 Generates random Philippine mobile numbers across Globe, TM, Smart, TNT and DITO
-prefixes and writes them to `philippine_mobile_numbers.txt`, one per line. They are
-filler for forms and datasets, not real subscribers.
+prefixes and writes them to a text file, one per line. They are filler for forms and
+datasets, not real subscribers.
+
+The count leads the filename - `1000_philippine_mobile_numbers.txt` by default,
+`250_philippine_mobile_numbers.txt` for `--gen 250` - so runs of different sizes do
+not overwrite each other.
 
 # Usage
 ```
